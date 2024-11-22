@@ -1,0 +1,168 @@
+Styles.css
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    color: #4a4a4a;
+  }
+  
+  .header {
+    background-color: #ff99cc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ff66b2;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    background-color: #ff99cc;
+    border-radius: 5px;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #ffcce6;
+  }
+  
+  img {
+    margin: 10px;
+    border: 5px solid #ff99cc;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #ff80bf;
+    color: white;
+    padding: 10px 0;
+  }
+
+/* Corrected styles for .MessagePhoto */
+.MessagePhoto {
+    display: block;
+    max-width: 90%; /* Allow the image to scale properly within its container */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 20px auto; /* Center the image with top/bottom spacing */
+    border: 8px solid #ff99cc; /* Ensure a thicker, consistent pink border */
+    border-radius: 15px; /* Smoothen the edges for a cleaner look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for elegance */
+    /* padding: 5px; Add a slight padding to create spacing inside the border */
+    background-color: #ffe6f2; /* Match the background color for uniformity */
+  }
+    
+
+  /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f2;
+  color: #4a4a4a;
+}
+
+.header {
+  background-color: #ff99cc;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ff66b2;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #ff99cc;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-photo {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #ff99cc;
+}
+
+.hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 2rem;
+  color: #ff66b2;
+}
+
+/* Memories Page */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #ff99cc;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #ff80bf;
+  color: white;
+  padding: 10px 0;
+}

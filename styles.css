@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f2;
+  color: #4a4a4a;
+}
+
+.header {
+  background-color: #ff99cc;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ff66b2;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #ff99cc;
+  border-radius: 5px;
+}
+
+/* Memories Page - Photo Grid */
+.section {
+  padding: 50px 20px;
+  text-align: center; /* Ensures all text in the section is centered */
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap; /* Wrap images to next row */
+  justify-content: center; /* Center the images */
+  gap: 15px; /* Add consistent spacing between images */
+  padding: 20px;
+}
+
+.photo-grid img {
+  max-width: 250px; /* Restrict width to avoid oversized images */
+  max-height: 200px; /* Set a consistent height */
+  width: auto; /* Retain aspect ratio */
+  height: auto; /* Retain aspect ratio */
+  border: 5px solid #ff99cc;
+  border-radius: 10px;
+  object-fit: cover; /* Ensure the image looks neat inside its bounds */
+  transition: transform 0.3s ease; /* Hover effect */
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #ff80bf;
+  color: white;
+  padding: 10px 0;
+}
